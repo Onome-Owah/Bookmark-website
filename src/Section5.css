@@ -1,0 +1,57 @@
+.uptodate{
+    background-color: rgba(82, 102, 223, 255);
+    color: white;
+    margin-top: 40%;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.mail{
+    margin-top: 5%;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    /* border-style: none; */
+    border-style: solid;
+    border-color: rgb(204, 70, 70);
+    font-size: 12px;
+    
+}
+
+.con{
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: rgb(204, 70, 70);
+    font-weight: bold;
+    
+}
+
+@media (min-width:768px) {
+.put{
+    display: flex;
+}
+
+
+.mail{
+    width: 35%;
+    margin-left: 30%
+
+}
+
+.con{
+   width: 15%; 
+   margin-top: 40px;
+   margin-right: 5px;
+}
+
+
+
+}

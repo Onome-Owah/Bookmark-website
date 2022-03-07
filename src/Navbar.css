@@ -1,0 +1,26 @@
+@media (min-width:768px)  { 
+
+.me-auto{
+    margin-left: 170px;
+}
+
+}
+
+
+@media (min-width:1024px) {
+
+.me-auto{
+    margin-left: 50%
+
+}
+
+}
+
+@media (min-width:1440px) {
+
+.me-auto{
+    margin-left: 70%;
+    
+}
+    
+}

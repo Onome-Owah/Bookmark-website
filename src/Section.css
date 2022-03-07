@@ -1,0 +1,129 @@
+.hero{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.blue{
+    background-color: rgba(82, 102, 223, 255);
+    padding: 23%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 50px;
+    height: 5%;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    right: 0;
+    z-index: -1;
+    
+}
+
+
+.simple{
+    text-align: center;
+    padding-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.flex1{
+    display: flex;
+    margin-top: 40px;
+}
+
+.chrome{
+    padding-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(82, 102, 223, 255);
+    color: white;
+    font-weight: bold;
+    height: 40px;
+}
+
+.fire{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    color: gray;
+    height: 40px;
+}
+
+
+
+@media (min-width:425px)  {} 
+
+
+@media (min-width:768px)  { 
+
+.all{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sec{
+    width: 50%;
+}
+.sec2{
+    width: 50%;
+}
+
+.blue{
+    padding: 12%;
+    margin-left: 40%;
+}
+
+.simple{
+    font-size: 10px;
+}
+
+}
+
+    
+/* .top1{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order:2;
+    order: 2;
+} 
+
+.top2{
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+
+}
+
+.blue{
+    
+    right:0;
+    position: absolute;
+    padding: 100px;
+    margin-left: 44%;
+    padding-left: 23%;
+    z-index: ;
+    
+}
+ */
+
+
+
+    
+    
+    @media (min-width:1024px) {
+    
+    
+    
+}
+    
+    @media (min-width:1440px) {
+    
+    
+        
+}

@@ -1,0 +1,51 @@
+.end{
+    background-color: rgb(21, 21, 54);
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+    line-height: 70px;
+}
+
+.bottom{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.marker{
+color: white;
+}
+
+.social{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30%;
+}
+
+.social:hover{
+    color: red;
+    transition: 3s;
+}
+
+
+@media (min-width:768px) {
+    .end{
+        display: flex;
+        line-height: 20px;
+        padding-top: 10px;
+        justify-content: space-around;
+    }
+    
+    .social{
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 1px;
+    }
+
+    .marker{
+        height: 35px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+}

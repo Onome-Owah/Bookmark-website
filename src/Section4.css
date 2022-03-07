@@ -1,0 +1,43 @@
+.faq{
+    text-align: center;
+    margin-top: 40%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.butt{
+    margin-top: 30px;
+    background-color: rgba(82, 102, 223, 255);
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    border-style: none;
+    font-weight: bold;
+
+}
+
+
+
+@media (min-width:768px) {
+.faq{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+
+.accord{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
+.butt{
+    width: 25%;
+    margin-right: 20%;
+}
+
+}
