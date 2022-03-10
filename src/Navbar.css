@@ -1,7 +1,15 @@
 @media (min-width:768px)  { 
+img{
+    width: 15rem;
+}
 
 .me-auto{
-    margin-left: 170px;
+    margin-left: 100px;
+    
+}
+
+.navlink:hover{
+    color: red;
 }
 
 }
@@ -19,8 +27,20 @@
 @media (min-width:1440px) {
 
 .me-auto{
-    margin-left: 70%;
+    margin-left: 50%;
+    justify-content: space-between;
     
+}
+
+
+
+.navlink:hover{
+    color: red;
+}
+
+.log{
+    padding-left: 10px;
+    padding-right: 10px;
 }
     
 }

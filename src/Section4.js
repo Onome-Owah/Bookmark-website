@@ -6,7 +6,7 @@ const Section4 = () => {
   return (
     <div>
         <div className='faq'>
-        <h1>Frequently asked Questions</h1>
+        <h3>Frequently Asked Questions</h3>
         <p>
             Here are some of our FAQs. If you have any other question you'd like answered, please feel free to email us
         </p>

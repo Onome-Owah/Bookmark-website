@@ -1,7 +1,7 @@
 .uptodate{
     background-color: rgba(82, 102, 223, 255);
     color: white;
-    margin-top: 40%;
+    margin-top: 20%;
     text-align: center;
     padding-bottom: 40px;
     padding-top: 40px;
@@ -34,6 +34,8 @@
     
 }
 
+
+
 @media (min-width:768px) {
 .put{
     display: flex;
@@ -53,5 +55,23 @@
 }
 
 
+
+}
+
+@media (min-width:1440px) {
+.uptodate{
+
+        background-color: rgba(82, 102, 223, 255);
+        color: white;
+        margin-top: 0%;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .con{
+        margin-top: 70px;
+        right: 4rem;
+    }
 
 }

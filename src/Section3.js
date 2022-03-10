@@ -9,34 +9,34 @@ import dot from '/Users/onomeowah/Desktop/SCHOOL PROJECTS/React/secondreactproje
 
 const Section3 = () => {
   return (
-    <div >
+    <div className='nomski' >
         <div className='extend'>
-        <h1>Download the extension</h1>
-        <p>We've got more browsers in the pipeline. Please do let us know if you have a favorite you would like to prioritize.</p>
+        <h3>Download the extension</h3>
+        <p className='pipe'>We've got more browsers in the pipeline. Please do let us know if you have a favorite you would like to prioritize.</p>
 
         </div>
             
         <div className='browser'>
         <div className='chromes'>
-        <img src={chrome} alt="" />
-            <h3>Add to chrome</h3>
+        <img className='chev' src={chrome} alt="" />
+            <h3 className='add'>Add to chrome</h3>
             <p>Minimum version 62</p>
             <img className='dot' src={dot} alt="" />
             <button className='but'>Add & install extension</button>
         </div>
 
-        <div className='chromes'>
-        <img src={fire} alt="" />
-            <h3>Add to Firefox</h3>
+        <div className='chromes fox'>
+        <img className='seeFire' src={fire} alt="" />
+            <h3 className='add'>Add to Firefox</h3>
             <p>Minimum version 55</p>
             <img className='dot' src={dot} alt="" />
             <button className='but'>Add & install extension</button>
         </div>
 
 
-        <div className='chromes'>
-        <img src={opera} alt="" />
-            <h3>Add to Opera</h3>
+        <div className='chromes ope '>
+        <img className='operas' src={opera} alt="" />
+            <h3 className='add'>Add to Opera</h3>
             <p>Minimum version 46</p>
             <img className='dot' src={dot} alt="" />
             <button className='but'>Add & install extension</button>

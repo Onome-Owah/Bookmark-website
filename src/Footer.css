@@ -12,6 +12,11 @@
     line-height: 40px;
 }
 
+.bottom:hover{
+    color: rgba(242, 117, 118, 255);
+    cursor: pointer;
+}
+
 .marker{
 color: white;
 }
@@ -24,8 +29,8 @@ color: white;
 }
 
 .social:hover{
-    color: red;
-    transition: 3s;
+    color: rgba(242, 117, 118, 255);
+    cursor: pointer;
 }
 
 
@@ -47,5 +52,17 @@ color: white;
         height: 35px;
         margin-left: 50px;
         margin-right: 20px;
+    }
+}
+
+
+@media (min-width:1440px) {
+    .bottom{
+        left: 4rem;
+    }
+
+    .social{
+        width: 10%;
+        
     }
 }

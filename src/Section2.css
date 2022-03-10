@@ -20,8 +20,7 @@
     width: 80%;
     margin-top: 20%;
     margin-left: 10%;
-    /* position: absolute;
-    z-index: 3; */
+    
 }
 
 
@@ -33,37 +32,118 @@
 }
 
 
+.markone{
+    visibility: hidden;
+}
+
+
 
 @media (min-width:768px) {
 
 .secondary{
     display: flex;
+
 }
 
 .secondblue{
-    padding: 12%;
-    margin-right: 45%;
+    position: relative;
+    margin-top: 20%;
+    padding: 30%;
+    margin-right: 30%;
     border-bottom-right-radius: 30%;
     
+}
+
+.secondary img{
+    position: relative;
+    bottom: 55%;
     
 }
 
 .tab2{
     width: 50%;
-    margin-bottom: 30%;
+    
+    
 }
 
 .tab1{
-    width: 70%;
-    padding-top: 45%;
+    width: 80%;
+    
 
 }
 
 .click{
     width: 50%;
-    margin-bottom: 20%;
+    margin-right: 30px;
+    text-align: left;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.markone{
+    margin-top: 30px;
+    background-color: rgba(82, 102, 223, 255);
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    border-style: none;
+    font-weight: bold;
+    visibility: visible;
+    
 }
 
 
 
 }
+
+@media (min-width:1024px)  { 
+/* .secondary{
+    
+    height: 35rem;
+}
+
+
+.tab1{
+    position: relative;
+    bottom: 2rem;
+}
+    .secondblue{
+        position: relative;
+        top: 6rem;
+    
+}
+.click{
+    top: 10rem;
+} */
+}
+
+@media (min-width:1440px)  {
+    .click{
+        width: 40%;
+        font-size: 20px;
+    }
+
+    
+        
+    .secondary{
+        /* background-color: purple; */
+        height: 30rem;
+    }
+
+     .secondblue{
+        /* position: relative; */
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    
+     }
+    
+
+     .secondary  img{
+         /* width: 50%; */
+         position: relative;
+         bottom: 40rem;
+
+
+    }
+ }

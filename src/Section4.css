@@ -1,6 +1,6 @@
 .faq{
     text-align: center;
-    margin-top: 40%;
+    margin-top: 20%;
     width: 90%;
     margin-left: 5%;
 }
@@ -24,6 +24,8 @@
 .faq{
     width: 60%;
     margin-left: 20%;
+    position: relative;
+    bottom: 6rem;
 }
 
 
@@ -31,7 +33,8 @@
 .accord{
     width: 60%;
     margin-left: 20%;
-    margin-top: 10%;
+    position: relative;
+    bottom: 4rem;
 }
 
 
@@ -40,4 +43,20 @@
     margin-right: 20%;
 }
 
+}
+
+
+@media (min-width:1440px) {
+    .faq{
+        margin-top: 5rem;
+    }
+
+    .accord{
+        /* position: relative;
+        bottom: 20rem; */
+    }
+
+    .butt{
+        margin-top: 80px;
+    }
 }

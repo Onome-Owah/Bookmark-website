@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <div>
         <div className='features'>
-        <h1 className='feat'>Features</h1>
+        <h3 className='feat'>Features</h3>
         <p className='text'>Our aim is to make it quick and easy for you to access you favourite websites. Your bookmark sync between your devices so you 
             access them on the go.
         </p>
